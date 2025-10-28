@@ -6,11 +6,11 @@
 /*   By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 15:36:45 by cschnath          #+#    #+#             */
-/*   Updated: 2024/10/15 08:27:06 by cschnath         ###   ########.fr       */
+/*   Updated: 2025/10/28 10:08:01 by cschnath         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 int	ft_putnbr(int n)
 {

@@ -6,11 +6,11 @@
 /*   By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 14:56:26 by cschnath          #+#    #+#             */
-/*   Updated: 2024/10/15 23:18:58 by cschnath         ###   ########.fr       */
+/*   Updated: 2025/10/28 10:13:53 by cschnath         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 int	ft_putnbr_hex(unsigned long long n, unsigned int base, char *basestr)
 {
@@ -103,3 +103,13 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (count);
 }
+
+/* Main function for testing
+int	main(void)
+{
+	char	*str;
+
+	str = "Hello, World!\n";
+	ft_printf("%s", str);
+}
+*/
